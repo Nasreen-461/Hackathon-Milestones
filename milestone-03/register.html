@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Register for Our Services!</h1>
+
+        <form>
+            <h3>Registration Form</h3>
+            <fieldset>
+             <legend>Person Information</legend> 
+             
+             <label for="name">Full Name:</label>
+             <input type="text" name="name" id="name" required><br><br>
+
+             <label for="email">User Email:</label>
+             <input type="email" name="email" id="email">
+             <br><br>
+
+             <label for="password">Set Password:</label>
+             <input type="password" name="password" id="password">
+             <br><br>
+
+             <label for="dob">Date of Birth:</label>
+             <input type="date" name="dob" id="dob">
+             <br><br>
+
+             <label for="gender">Gender:</label>
+             <input type="radio" name="gender" id="male">
+             <label for="male">Male</label>
+
+             <input type="radio" name="gender" id="female">
+             <label for="female">Female</label>
+             <br><br>
+
+             <label for="country">Country</label>
+             <select name="country" id="country">
+                <option value="pak">Pakistan</option>
+                <option value="iran">Iran</option>
+                <option value="sa">Soudi Aarbia</option>
+             </select>
+             <br><br>
+
+            <button type="submit">Register Now</button>
+            <br><br>
+            <button type="reset">Reset Form</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+
+        <h3>&copy; 2024 | All Rights Reserved</h3>
+    </footer>
+</body>
+</html>
